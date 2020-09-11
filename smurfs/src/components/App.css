@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "groboldregular";
+  src: url("font/grobold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .App {
+  font-family: "groboldregular";
   text-align: center;
+  background: url("https://images.fandango.com/images/fandangoblog/socialsmurf-726F.jpg");
+  background-repeat: no-repeat;
+  border-top: 10px solid red;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 3px;
 }

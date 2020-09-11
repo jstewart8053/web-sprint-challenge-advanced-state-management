@@ -8,7 +8,6 @@ import { Reducer } from "./Reducers/Reducer";
 import thunk from "redux-thunk";
 
 
-
 const store = createStore(Reducer, applyMiddleware(thunk));
 
 ReactDOM.render(

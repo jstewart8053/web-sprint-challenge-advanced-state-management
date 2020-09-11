@@ -12,7 +12,7 @@ const SmurfList = ({ getSmurf, isFetching, error, smurfs }) => {
   return (
   <div>
       {isFetching ? (
-        <h3>Hold tight, we're fetching your Smurf Data...</h3>
+        <h3>Promise to be smurfin' fast!...</h3>
       ) : (
         <div>
           {smurfs.map((smurf) => {

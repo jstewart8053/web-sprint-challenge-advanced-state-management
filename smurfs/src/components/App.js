@@ -6,9 +6,7 @@ import SmurfForm from "./SmurfForm";
 const App = () => {
   return (
     <div className="App">
-
       <SmurfForm />
-
     </div>
   );
 };
